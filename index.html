@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sistem Pakar Wisata Lombok</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header-content">
+          <h1 class="header-title">Wisata Lombok</h1>
+          <p class="header-subtitle">Temukan Destinasi Wisata Impian Anda</p>
+        </div>
+        <div class="header-decoration"></div>
+      </header>
+
+      <main class="main-content">
+        <div id="breadcrumb" class="breadcrumb"></div>
+        <div id="decisionForm" class="decision-form">
+          <h2 id="questionText" class="question-title"></h2>
+          <div id="choicesContainer" class="choices-container"></div>
+
+          <div class="button-group">
+            <button type="button" id="backButton" class="btn btn-back">
+              <span>←</span> Kembali
+            </button>
+          </div>
+        </div>
+        <div id="rekomendasi" class="recommendation hidden">
+          <div class="recommendation-icon">🎉</div>
+          <h2 class="recommendation-title">Rekomendasi Wisata Untuk Anda</h2>
+          <div id="recommendationText" class="recommendation-text"></div>
+          <div
+            id="recommendationImage"
+            class="recommendation-image-container"
+          ></div>
+          <button type="button" id="restartButton" class="btn btn-restart">
+            🔄 Cari Destinasi Lain
+          </button>
+        </div>
+      </main>
+
+      <footer class="footer">
+        <p>2025 Kelompok Kecerdasan Buatan </p>
+      </footer>
+    </div>
+    <script src="pohon_keputusan.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
