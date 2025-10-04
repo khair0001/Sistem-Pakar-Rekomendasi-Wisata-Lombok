@@ -3,5 +3,5 @@
 ### Aceess
 ---
 ``` bash
-http://sistempakarkelompokAI.surge.sh
+sistempakarkelompokAI.surge.sh
 ```
