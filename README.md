@@ -35,7 +35,7 @@ sistem-pakar-wisata-lombok/
 5. Klik "Cari Destinasi Lain" untuk memulai ulang
 
 ### Bisa juga dibuka di 
-[Rekomendasi Wisata Lombok](sistempakarkelompokAI.surge.sh)
+[Rekomendasi Wisata Lombok](https://sistempakarkelompokAI.surge.sh)
 
 ## 5. Teknologi yang Digunakan
 - HTML5
