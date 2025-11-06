@@ -66,7 +66,7 @@ Pohon keputusan dalam sistem ini diimplementasikan menggunakan objek JavaScript 
   ]
 }
 {
-  rekomendasi: "Teks rekomendasi yang ditampilkan",
+  rekomendasi: "Teks rekomendasi ingin ditampilkan",
   image: "path/ke/gambar.jpg"
 }
 ```
